@@ -1,0 +1,5 @@
+Git repo - TrainingWebsite1
+
+While netlify build set build command-
+
+CI=false npm run build

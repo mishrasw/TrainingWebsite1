@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import SeleniumJava from "./pages/SeleniumJava"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/menu" exact component={Menu} />
           <Route path="/about" exact component={About } />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/SeleniumJava" exact component={SeleniumJava} />
           </Switch>
         <Footer />
       </Router>

@@ -21,8 +21,8 @@ const AnimatedBackground = () => {
             options={{
                 background: {
                     color: {
-                        value: "#283593",
-                        /*value: "#000000",*/
+                      /*  value: "#283593",*/
+                        value: "#000000",
                     },
                 },
                 fpsLimit: 120,
@@ -50,7 +50,8 @@ const AnimatedBackground = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        /*value: "#ffffff",*/
+                        value: "#000000"
                     },
                     /*
                     links: {

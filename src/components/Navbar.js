@@ -21,9 +21,10 @@ function Navbar() {
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <Link to="/SeleniumJava">Selenium Java</Link>
+              <Link to="/SeleniumCSharp">Selenium C#</Link>
+              <Link to="/PlaywrightType">Plawright TypeScript</Link>
+              <Link to="/RestAssured">REST API Automation</Link>
             </div>
           </div>
           <Link to="/about"> About </Link>
@@ -38,9 +39,10 @@ function Navbar() {
         <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <Link to="/SeleniumJava">Selenium Java</Link>
+          <Link to="/SeleniumCSharp">Selenium C#</Link>
+          <Link to="/PlaywrightType">Plawright TypeScript</Link>
+          <Link to="/RestAssured">REST API Automation</Link>
         </div>
         </div>
         <Link to="/about"> About </Link>

@@ -1,7 +1,14 @@
-.container {
-  display: flex;
+.header{
   width: 98%;
-  height: auto;
+  margin: 10px;
+  align-items: left;
+  justify-content: left;
+}
+
+.animatedcontainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
   margin: 10px;
   align-items: center;
   justify-content: center;
@@ -9,12 +16,14 @@
 }
 
 .text {
-  width: auto;
+  width: 100%;
+  height: 100%;
   margin-left: 10px;
   align-items: left;
   justify-content: left;
   animation: fadeInRight 1s ease-in-out;
 }
+
 
 .image img {
   width: 95%;
@@ -22,7 +31,9 @@
   align-items: right;
   justify-content: right;
   animation: fadeInLeft 1s ease-in-out;
+  flex-direction: column;
 }
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -42,5 +53,11 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+@media (max-width: 768px) {
+  .animatedcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }

@@ -3,18 +3,20 @@ import "../style/AnimatedTextImage.css"
 
 const AnimatedTextImage = ({ title, text, image }) => {
   return (
-    <div className="container">
+    <div className="containerhead">
+    <h1 className="header">{title}</h1>
+    <div className="animatedcontainer">
       <div className="image">
         <img src={image} alt="Sample" />
       </div>
       <div className="text">
-        <h1>{title}</h1>
         {Array.isArray(text)
         ? text.map(element => {
-            return <p>{element}</p>;
+            return <p className="lines">{element}</p>;
           })
         : text}
       </div>
+    </div>
     </div>
   );
 };
